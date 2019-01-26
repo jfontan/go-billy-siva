@@ -38,8 +38,8 @@ steps:
   displayName: 'Get dependencies, then build'
 
 - script: |
-    make dependencies
+    #make dependencies
     make test-coverage
-    make codecov
+    #make codecov
   workingDirectory: '$(modulePath)'
   displayName: 'Tests'
