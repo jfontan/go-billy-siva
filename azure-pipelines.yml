@@ -42,4 +42,4 @@ steps:
     make test-coverage
     make codecov
   workingDirectory: '$(modulePath)'
-  displayName: 'Tests,
+  displayName: 'Tests'
