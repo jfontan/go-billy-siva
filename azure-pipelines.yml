@@ -36,3 +36,10 @@ steps:
     go build -v .
   workingDirectory: '$(modulePath)'
   displayName: 'Get dependencies, then build'
+
+- script: |
+    make dependencies
+    make test-coverage
+    make codecov
+  workingDirectory: '$(modulePath)'
+  displayName: 'Tests,
