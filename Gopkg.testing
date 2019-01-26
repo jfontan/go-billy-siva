@@ -1,0 +1,4 @@
+[[constraint]]
+  name = "gopkg.in/src-d/go-siva.v1"
+  source = "github.com/jfontan/go-siva"
+  revision = "46706569e21e527a7e4611bbb5c5782258c953f6"
