@@ -32,3 +32,5 @@ jobs:
 
     - go: 1.11
       os: windows
+      before_install:
+        - choco install make
