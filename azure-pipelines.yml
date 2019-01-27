@@ -9,8 +9,8 @@ trigger:
 pool:
   # vmImage: 'Ubuntu-16.04'
   matrix:
-    linux:
-      vmImage: 'Ubunty-16.04'
+    # linux:
+    #   vmImage: 'Ubunty-16.04'
     windows:
       vmImage: 'vs2017-win2016'
 
