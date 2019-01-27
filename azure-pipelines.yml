@@ -21,6 +21,7 @@ steps:
     mkdir -p '$(GOBIN)'
     mkdir -p '$(GOPATH)/pkg'
     mkdir -p '$(modulePath)'
+    pwd
     echo $gopath
     shopt -s extglob
     mv !(gopath) '$(modulePath)'
