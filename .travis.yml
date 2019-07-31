@@ -30,4 +30,5 @@ jobs:
     - go: 1.12
       os: windows
       before_install:
+        - powershell -command 'Set-MpPreference -DisableRealtimeMonitoring $true'
         - choco install make
