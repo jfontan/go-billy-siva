@@ -3,7 +3,7 @@ on: [push]
 jobs:
 
   build:
-    name: Test on go ${{ matrix.go_version }} and ${{ matrix.os }
+    name: Test on go ${{ matrix.go_version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
